@@ -109,8 +109,8 @@ Upload a CSV file of transactions → get instant predictions, risk levels, and 
  
 ```bash
 # Clone the repo
-git clone https://github.com/elig118/fraud-risk-detection.git
-cd fraud-risk-detection
+git clone https://github.com/elig18/Project-fraud-risk-detection.git
+cd Project-fraud-risk-detection
  
 # Install dependencies
 pip install -r requirements.txt
