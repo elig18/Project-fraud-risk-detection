@@ -22,7 +22,7 @@ The pipeline covers:
 ## Project Structure
  
 ```
-fraud-risk-detection/
+Project-fraud-risk-detection/
 │
 ├── notebook.ipynb          # Full analysis: EDA, resampling, classifiers, neural network
 ├── risk_report.py          # Generates an audit-ready CSV report with risk scoring
