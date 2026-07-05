@@ -37,10 +37,10 @@ Project-fraud-risk-detection/
  
 In regulated environments, detecting anomalies is only half the challenge. The other half is **explainability and auditability**:
  
-- A model that flags every transaction as fraud is useless — **precision matters**
-- A model that misses fraud is dangerous — **recall matters even more**
-- Compliance teams don't just need predictions — they need **traceable, documented outputs**
-This is why this project includes a **risk scoring layer** and an **audit report generator** on top of the ML pipeline — not just a classifier.
+- A model that flags every transaction as fraud is useless : **precision matters**
+- A model that misses fraud is dangerous : **recall matters even more**
+- Compliance teams don't just need predictions : they need **traceable, documented outputs**
+This is why this project includes a **risk scoring layer** and an **audit report generator** on top of the ML pipeline : not just a classifier.
  
 ---
  
