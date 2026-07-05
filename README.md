@@ -24,6 +24,8 @@ The pipeline covers:
 ```
 Project-fraud-risk-detection/
 │
+├── .streamlit/
+│   └── config.toml         # color palette
 ├── notebook.ipynb          # Full analysis: EDA, resampling, classifiers, neural network
 ├── risk_report.py          # Generates an audit-ready CSV report with risk scoring
 ├── app.py                  # Streamlit dashboard — interactive fraud detection interface
