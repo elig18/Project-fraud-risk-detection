@@ -18,7 +18,19 @@ The pipeline covers:
 - **Automated audit report** — a CSV log of flagged transactions, ready for compliance review
 - **Interactive Streamlit dashboard** — upload a transaction file and get instant fraud predictions with risk levels
 ---
- 
+
+## Preview
+
+> Upload your `creditcard.csv` file and the dashboard automatically trains the model, scores every transaction, and generates a downloadable audit report.
+
+![Example of home ](assets/frauddetectorhome.png)
+
+![Example of the dataset overview ](assets/datasetoverview.png)
+
+![Example of the audit report ](assets/auditreport.png)
+
+
+
 ## Project Structure
  
 ```
@@ -35,7 +47,7 @@ Project-fraud-risk-detection/
  
 ---
  
-## Why This Matters for Digital Risk & Compliance
+## Why This Matters for digital risk and compliance
  
 In regulated environments, detecting anomalies is only half the challenge. The other half is **explainability and auditability**:
  
@@ -100,7 +112,7 @@ Each transaction gets a risk level based on the model's predicted probability:
 ## Streamlit Dashboard
  
 ```bash
-streamlit run app.py
+streamlit run app.py 
 ```
  
 Upload a CSV file of transactions → get instant predictions, risk levels, and a downloadable audit report.
