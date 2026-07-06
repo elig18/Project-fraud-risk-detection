@@ -1,0 +1,8 @@
+creditcard.csv
+audit_report.csv
+*.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pkl
+*.h5
